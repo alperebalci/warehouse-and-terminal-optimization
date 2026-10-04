@@ -10,6 +10,7 @@ projects:
   - multi-period-warehouse-rental-lp-optimization
   - warehouse-multi-agent-robot-routing
   - warehouse-order-packing-heuristics
+  - decentralized-marl-or-coordination
 conventions:
   provenance_records: true
   reproducibility_expected: true

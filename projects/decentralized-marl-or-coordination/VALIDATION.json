@@ -1,0 +1,29 @@
+{
+  "project": "decentralized_marl",
+  "status": "passed",
+  "tests": 8,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "torch": "2.10.0+cpu",
+    "device": "CPU",
+    "threads": 1,
+    "date": "2026-10-01"
+  },
+  "sha256": {
+    "study.py": "8f5990921c83f4b4ee094e5903b21d48c8bb8b3867d09e6c737a8c73a647a870",
+    "checks.py": "54d0a078da0f0504cb54dfe338f9a3b0bb0163923fee1c78e5ec4a93e9da20d1"
+  },
+  "scope": "only this module; existing umbrella regression suite not run",
+  "initial_execution_sha256": {
+    "study.py": "960f985d014e2bbab8876b9c41723d4c40983a7456bf73109c86558678fa0538",
+    "checks.py": "cc8d7547d88df0eca72a88a29fa724bc9dc7b55ddd7616466e2c61bf15dd6b97"
+  },
+  "post_format_validation": {
+    "status": "passed",
+    "runner": "GitHub Actions",
+    "python": "3.11.16",
+    "ruff": "ruff 0.16.9"
+  }
+}
