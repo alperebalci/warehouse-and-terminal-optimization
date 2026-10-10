@@ -76,3 +76,11 @@ python container_terminal_optimizer.py
 - pandas
 - Matplotlib
 - PuLP
+
+## Native terminal CI and acceptance criteria
+
+[Container terminal MILP CI](.github/workflows/terminal-ci.yml) now executes the **actual PuLP/CBC mathematical program** on a small seeded instance on Python 3.11 and 3.12.
+
+The regression suite checks deterministic data generation; valid dimensions and time grids; feasible optimization status; each container assigned exactly once; independent reefer, hazardous-cargo, and weight compatibility checks; equipment throughput and TEU limits; allowed handling times; lateness consistency; finite objective; and sensible summary utilization.
+
+This small validation problem is not a proof of scalability, production deployment, or correctness of imported `projects/` snapshots. Industrial experiments need real terminal data, controlled budgets, sensitivity analysis and independent stress tests.
